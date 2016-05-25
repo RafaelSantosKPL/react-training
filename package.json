@@ -1,0 +1,44 @@
+{
+  "name": "react-training",
+  "version": "0.0.1",
+  "description": "Basic boilerplate for react workshop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --inline --colors --hot"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "js",
+    "jsx"
+  ],
+  "author": "Rafael Santos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelSantosKPL/react-training.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RafaelSantosKPL/react-training/issues"
+  },
+  "homepage": "https://github.com/RafaelSantosKPL/react-training#readme",
+  "dependencies": {
+    "alt": "^0.18.4",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "node-sass": "^3.7.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "sass-loader": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-hmre": "^1.1.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.10.0"
+  }
+}
