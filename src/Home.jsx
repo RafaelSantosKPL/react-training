@@ -1,4 +1,6 @@
 import React from 'react';
+import Feature from './feature.jsx';
+import Content from './content.jsx';
 
 export default class Home extends React.Component {
     constructor(props){
@@ -6,7 +8,13 @@ export default class Home extends React.Component {
     }
     render(){
         return (
-            <div>Oi!</div>
+           <div>
+               <Feature title="Hello World">
+                   <Content>
+                       <div>Corpo de um texto qualquer</div>
+                   </Content>
+               </Feature>
+           </div>
         );
     }
 }
